@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Aenzbi IDE is a web-based integrated development environment that allows for collaborative coding, file management, and project deployment.",
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",
     "@prisma/client": "^5.21.1",
