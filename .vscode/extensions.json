@@ -3,6 +3,7 @@
         "matt-rudge.auto-open-preview-panel",
         "prisma.prisma",
         "christian-kohler.npm-intellisense",
-        "humao.rest-client"
+        "humao.rest-client",
+        "johnpapa.angular2"
     ]
 }
