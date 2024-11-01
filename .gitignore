@@ -2,3 +2,38 @@ node_modules
 # Keep environment variables out of version control
 .env
 .vercel
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*
+!.env.example
+
+# Vercel specific files
+vercel.json
+
+# Miscellaneous
+.DS_Store
+*.pem
+*.log
+
+# Ignore the local development cache
+.cache/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore coverage reports
+coverage/
