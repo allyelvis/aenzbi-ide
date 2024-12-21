@@ -36,7 +36,7 @@ function failed()
 
 if [ ! -f "${TEMPLATE_PATH}" ]; then
     if [[ $IS_CUSTOM_TEMPLATE = 0 ]]; then
-        failed "Must run from runner root or install is corrupt"
+        failed "Must run from runner root or install is corrupt. Please check your installation."
     else
         failed "Service file at '$GITHUB_ACTIONS_RUNNER_SERVICE_TEMPLATE' using GITHUB_ACTIONS_RUNNER_SERVICE_TEMPLATE env variable is not found"
     fi

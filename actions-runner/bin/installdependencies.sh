@@ -131,7 +131,7 @@ then
             command -v dnf
             if [ $? -eq 0 ]
             then
-                dnf install -y lttng-ust openssl-libs krb5-libs zlib libicu
+                dnf install -y --allowerasing lttng-ust openssl-libs krb5-libs zlib libicu
                 if [ $? -ne 0 ]
                 then
                     echo "'dnf' failed with exit code '$?'"
@@ -147,7 +147,7 @@ then
             command -v yum
             if [ $? -eq 0 ]
             then
-                yum install -y lttng-ust openssl-libs krb5-libs zlib libicu
+                yum install -y --allowerasing lttng-ust openssl-libs krb5-libs zlib libicu
                 if [ $? -ne 0 ]
                 then                    
                     echo "'yum' failed with exit code '$?'"
@@ -202,7 +202,7 @@ then
         command -v yum
         if [ $? -eq 0 ]
         then
-            yum install -y openssl krb5-libs zlib
+            yum install -y --allowerasing openssl krb5-libs zlib
             if [ $? -ne 0 ]
             then                    
                 echo "'yum' failed with exit code '$?'"
