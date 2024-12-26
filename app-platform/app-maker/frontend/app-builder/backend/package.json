@@ -8,10 +8,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "monaco-editor": "^0.52.2",
     "webpack": "^5.97.1",
     "xterm": "^5.3.0"
-  }
+  },
+  "description": ""
 }
