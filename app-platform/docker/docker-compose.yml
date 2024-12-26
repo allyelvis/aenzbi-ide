@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app-maker:
+    build: .
+    ports:
+      - '3000:3000'
+  web-ide:
+    build: web-ide/backend
+    ports:
+      - '4000:4000'
